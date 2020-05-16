@@ -7,10 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="resultRandom"></div>
+    <div id="container-resultRandom">
+        <div id="resultRandom">
+            <div class="resultRandom-container-illustration">
+                <img class="resultRandom-illustrationDefault" src="/default.png">
+            </div>
+            <div class="resultRandom-description">
+                <h1 class="resultRandom-description-heading"></h1>
+                <div class="resultRandom-description-underHeading">
+                    <p class="resultRandom-description-runtime"></p>
+                    <p class="resultRandom-description-voteAverage"></p>
+                </div>
+                <p class="resultRandom-description-overview"></p>
+                <p class="resultRandom-description-releaseDate"></p>
+            </div>
+        </div>
+    
+        <div id="modalYoutube">
+            <!-- <iframe src="" frameborder="0"></iframe> -->
+        </div>
+    </div>
+
     <div id="container-button">
-        <h2 id="description-button">If like me, it's difficult to choose a film ... click on </h2>
-        <button id="randomButton">Random film</button>  
+        <button class="randomButton btnStyle">Random a film</button>
+        <button class="trailerButton btnStyle btnNone">
+            <img class="imageButton" src="/social-media.png" alt="Youtube illustration">
+        </button>
+        <button class="alreadySeenButton btnStyle btnNone">
+            <img class="imageButton" src="/symbols.png" alt="Youtube illustration">
+        </button>
     </div>
 
     <script src="index.js"></script>
