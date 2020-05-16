@@ -61,11 +61,11 @@ function entierAleatoire(min, max){
             alreadySeenButton.style.display = "block"
             trailerButton.style.display = "block"
 
-            // if(modalTrailerStatus == false){
-            //     modaleYoutube.innerHTML = ""
-            //     modaleYoutube.style.display = ""
-            //     modalTrailerStatus = true
-            // }
+            if(modalTrailerStatus == false){
+                modaleYoutube.innerHTML = ""
+                modaleYoutube.style.display = ""
+                modalTrailerStatus = true
+            }
 
         } else {
             // Trouver un film qui est valide
